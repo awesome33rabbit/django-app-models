@@ -13,7 +13,7 @@ from cookiecutter.main import cookiecutter
 
 if __name__ == "__main__":
     cookiecutter(
-        ".",
+        "https://github.com/awesome33rabbit/django-app-models.git",
         extra_context={
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "class_name_list": "GameMode,Store,StoreInfo,Discount,ActiveCode,ShoppingList",
