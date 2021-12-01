@@ -1,0 +1,6 @@
+[flake8]
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,venv,node_modules,{{cookiecutter.app_name}}/,*.js
+ignore = E203, E266, E501, W503, F403, E116, F405, F401
+max-line-length = 79
+max-complexity = 18
+select = B,C,E,F,W,T4,B9
