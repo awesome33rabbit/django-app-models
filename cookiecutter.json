@@ -3,8 +3,6 @@
   "author_email": "pumz_1991@126.com",
   "python_version": "python3.9",
   "project_name": "project_name",
-  "app_name": "app_name",
-  "verbose_name": "",
   "timestamp": "{{ cookiecutter.timestamp }}",
   "class_name_list": "{{ cookiecutter.class_name_list }}"
 }
